@@ -14,8 +14,110 @@ tlačítko facebook         #3b5998
 tlačítko twitter          #1da1f2
 */
 
-
+@font-face {
+  font-family: "sanspro";
+  src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
 body {
   background-color: #bdc3c7;
 }
 
+h1 {
+  font-family: "Montserrat", sans-serif;
+  
+}
+p {
+  font-family: "sanspro", sans-serif;
+  color: #bdc3c7;
+}
+
+.profil {
+  position: relative;
+  left: 10px;
+  top: 10px;
+  width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0);
+ 
+}
+
+.hlavicka {
+  position: relative;
+  height: 197px;
+  
+}
+
+.logo {
+  background-color: #b92e81;
+  border-radius: 50%;
+  position: absolute;
+  right: 30px;
+  bottom: -20px;
+}
+
+.foto {
+  width: 300px;
+
+}
+
+.jmeno {
+  
+  background-color: #31363b;
+}
+
+.obsah {
+  background-color: #31363b;
+  color: white;
+  padding: 20px 20px;  
+  width: 300px;
+}
+
+a {
+  text-decoration: 0;
+}
+
+.odkazy {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.odkazy li {
+  display: inline-block;
+}
+
+.odkazy a {
+  display: inline-block;
+  padding: 20px 30px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #bdc3c7;
+  background-color: #31363b;
+  font-weight: bold;
+}
+
+.portfolio a {
+  padding: 10px 79px;
+  border-bottom: #bdc3c7 0.1px solid;
+  border-top: #bdc3c7 0.1px solid;
+}
+
+.facebook a,
+.twitter a {
+padding: 10px 34.71px;
+}
+
+.facebook a {
+  border-right: #bdc3c7 0.1px solid;
+}
+
+.portfolio a:hover {
+  background-color: #e74c3c;
+}
+.facebook a:hover {
+  background-color: #3b5998;
+}
+
+.twitter a:hover {
+  background-color: #1da1f2;
+}
