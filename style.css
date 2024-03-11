@@ -92,6 +92,7 @@ a {
 .btn {
   padding: 10px;
   color: #BDC3C7;
+ border-bottom: black;
 }
 
 .odkaz1,
@@ -102,6 +103,7 @@ a {
   font-weight: bold;
 }
 
+
 .portfolio:hover {
   background-color: #e74c3c;
 }
@@ -110,6 +112,8 @@ a {
   background-color: #3b5998;
 }
 
+
 .twitter:hover {
   background-color: #1da1f2;
+
 }
