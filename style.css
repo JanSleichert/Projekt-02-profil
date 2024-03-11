@@ -75,49 +75,41 @@ a {
   text-decoration: 0;
 }
 
-.odkazy {
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-  font-family: "Montserrat", sans-serif;
+.network{
+  display: flex;
+  justify-content: space-between;
+}
+.facebook,
+.twitter {
+  width: 100%;
+   background-color: #31363B;
+}
+.portfolio {
+  width: 100%;
+  background-color: #31363B;
+  border-bottom: solid 1px #BDC3C7;
+}
+.btn {
+  padding: 10px;
+  color: #BDC3C7;
 }
 
-.odkazy li {
-  display: inline-block;
-}
-
-.odkazy a {
-  display: inline-block;
-  padding: 20px 30px;
-  font-size: 15px;
-  text-decoration: none;
+.odkaz1,
+.odkaz2,
+.odkaz3 {
   color: #bdc3c7;
-  background-color: #31363b;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
-.portfolio a {
-  padding: 10px 79px;
-  border-bottom: #bdc3c7 0.1px solid;
-  border-top: #bdc3c7 0.1px solid;
-}
-
-.facebook a,
-.twitter a {
-padding: 10px 34.71px;
-}
-
-.facebook a {
-  border-right: #bdc3c7 0.1px solid;
-}
-
-.portfolio a:hover {
+.portfolio:hover {
   background-color: #e74c3c;
 }
-.facebook a:hover {
+
+.facebook:hover {
   background-color: #3b5998;
 }
 
-.twitter a:hover {
+.twitter:hover {
   background-color: #1da1f2;
 }
